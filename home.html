@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css"><!--referencia de css-->
+    <script src="JS/main.js"></script> <!--referencia de js-->
+    <link rel="icon" href="IMG/icon_eplam.png">  <!--Aquí hay un icono-->
+    <title>https://universidad-eplam.com</title>
+</head>
+<body>
+    <div class="container"> <!--Aquí estará el contenedor donde trabajamos todo el home-->
+        <header>
+        
+            <nav><a href="home.html"><img class="logo" src="IMG/logo_eplam.png" alt=""></a> <!--Aquí va la imagen del logo-->
+                <ul class="cont-ul"> <!--Aquí va el menú-->
+                    <li class="campus"><a href="#campus">Campus</a>
+                  </li>
+                  <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div><a href="index.html"><img class="user_area" src="IMG/icon_user.png" alt="usuario"></a></div><!--Área del cliente-->
+                </nav>
+            </header>
+            <div class="slider"><!--Aquí empieza el script de las imágenes que se van pasando. Las imágenes se cambiarán posteriormente-->
+                <div><img class="foto_home" src="IMG/foto2.jpg"></div>
+                <div><img class="foto_home" src="IMG/galeria_1.png"></div>
+                <div><img class="foto_home" src="IMG/foto_campus.jpg"></div>
+                <div><img class="foto_home" src="IMG/galeria_2.png"></div>
+               </div>    
+               <script src="js/main.js"></script><!--Aquí se aplica el slider para que pueda pasar las imágenes del script viendo una imagen emergente en los circulos inferiores.-->
+               <div class="fondo_quienes_somos"><img src="IMG/fondo_quienes.png" alt=""></div>
+               <div class="quienes_somos">
+                <a name="quienes_somos" id="quienes_somos"></a> 
+                <img src="IMG/quienessomos.jpg" alt="">
+                <div class="quienes_somos_cuadro"><p>Más que una Universidad. <br> <br>
+                Eplam, es la primera universidad en europa especializada en Administración de Sistemas informáticos en Red, con diferentes especializaciones en la rama, contamos con 3 campus para clases presenciales, y atención las 24 horas para estudiantes del curso online, con atención y profesores las 24 horas No dudes más y fórmate con nosotros.</p></div>
+            </div>
+            <a name="contacto" id="campus"></a> 
+             <div class="section_dos"> <!--Esta es la seccion dos de la página que va debajo de la imagen y es de color blanco-->
+                    <div class="card_uno">  <!--Estas son las secciones de "cards"-->
+                    <img src="img/campus1.jpg">
+                    <br><br><a href="#"><input type="button" value="Campus España"></a>
+                    </div>
+                    <div class="card_dos"><!--Estas son las secciones de "cards"-->
+                    <img src="img/campus2.jpg">
+                    <br><a href="#"><input type="button" value="Campus Dublin"></a>
+                    </div>
+                    <div class="card_tres"><!--Estas son las secciones de "cards"-->
+                    <img src="img/campus3.jpg">
+                    <br><a href="#"><input type="button" value="Campus Londres"></a>
+                    </div>
+                </div>
+                <div class="franja_naranja"> <!--Esta es la franja morada que contiene otros tres divs para meter los textos-->
+                    <p><b>+ de</b><span style="color:#034959;"> 3500</span><br> alumnos</p>
+                    <p><b>+ de</b><span style="color:#034959;"> 1800</span><br> horas de aprendizaje</p>
+                    <p><b>+ del</b><span style="color:#034959;"> 90%</span><br>de empleabilidad</p>
+                    </div>
+                    <div class="texto_section_tres"><h2>Accede a TODAS nuestras clases Online</h2>
+                        <p>Sin salir de tu casa. Ayuda las 24 horas.</p></div>
+                        <div class="section_tres"> <!--Esta sección (caja) engloba todos los elementos desde la franja morada hasta categorías (categorías no incluido) -->
+                            <div class="card_precios_uno"> <!--Esta es la "carta" de 9,99€ al mes-->
+                            <p>PLAN 1</p>
+                            <h2>50 horas</h2>
+                            <p>Online</p>
+                            <a href="Area_cliente.html"><input type="button" value="Inscríbete!"></a>
+                            </div>
+                            <div class="card_precios_dos"> <!--Esta es la "carta" de 26,99€ al mes-->
+                            <p>PLAN 2</p>
+                            <h2>100 horas</h2>
+                            <p>Semi presencial</p>
+                            <a href="Area_cliente.html"><input type="button" value="¡Inscríbete!"></a>
+                            </div>
+                            <div class="card_precios_tres"> <!--Esta es la "carta" de 99,99€ al mes-->
+                            <p>PLAN 3</p>
+                            <h2>300 horas</h2>
+                            <p>Presencial</p>
+                            <a href="Area_cliente.html"><input type="button" value="Inscríbete!"></a>
+                            </div>
+                            </div>
+                            <ul class="thumb"><h1>Claustro</h1>
+                                <li><img src="img/david.jpeg"><p>David Álvarez</p></li>
+                                <li><img src="img/raul.png"><p>Raul Rodriguez</p></li>
+                                <li><img src="img/jose.jpeg"><p>José Antonio Pérez</p></li>
+                            </ul>
+                                <div class="container-faq"> <!--Esta sección son preguntas que tendrán una respuesta como si fuese un menú despegable. El usuario dará click y aparecerá la respuesta.-->
+                                
+                                    <div class="empresas">
+                                        <p>Empresas colaboradoras</p>
+                                       <img src="img/Apple-Logo.png" alt=""><img src="img/facebook.png"><img src="img/deloitte.png" alt=""><img src="img/everis_black.png" alt="">
+                                    </div>
+                                
+                                    <form name="formulario de iniciar sesión" action="#" method="post" class="#" onsubmit="return validar_login()"></form>
+                                      <div class="formulario">
+                                        <a name="contacto" id="contacto"></a> 
+                                        <div class="imagen_formulario"><img src="IMG/img_form.jpg" alt=""></div>
+                                        <div class="texto_formulario">
+                                            <h2>Contacto</h2>
+                                            <p>Nombre y Apellido</p>
+                                            <input type="text"required>
+                                            <p>Correo Electrónico</p>
+                                            <input type="text" id="email" required>
+                                            <p>Teléfono</p>
+                                            <input type="tel" minlength="1" maxlength="11" required>
+                                            <br>
+                                           <div class="interes">
+                                            <p>Área de Interés</p><input type="radio" name="Interés" value="D">Presencial<input type="radio" name="Interés" value="U">SemiPresencial<input type="radio" name="Interés" value="E">Online
+                                           </div> 
+                                           <button type="submit">Contactar</button>
+                                        </div>
+                                      </div>
+                                    </form>
+                                    <div class="titulo-faq">
+                                    <h3>FAQ'S</h3>
+                                </div>
+
+                                   <div class="item-faq">
+                                      <div class="question">
+                                          <h3>¿Habrá Cursos nuevos?</h3>
+                                          <div class="more"><i>+</i></div>
+                                      </div>  
+                                      <div class="answer">
+                                          <p>Si, constantemente incluimos nuevos cursos y certificaciones</p>
+                                      </div>   
+                                  </div>
+                                  <div class="item-faq">
+                                    <div class="question">
+                                        <h3>¿Cómo funciona una suscripción en Eplam?</h3>
+                                    
+                                        <div class="more"><i>+</i></div>
+                                    </div>  
+                                    <div class="answer">
+                                        <p>Al confirmar tu suscripción tendrás disponible en la plataforma el material informativo,acceso a contacto con profesores y material audiovisual</p>
+                                    </div>   
+                                </div>
+                                <div class="item-faq">
+                                    <div class="question">
+                                        <h3>¿Recibiré algún título?</h3>
+                                        <div class="more"><i>+</i></div>
+                                    </div>  
+                                    <div class="answer">
+                                        <p>Si, constantemente incluimos nuevos cursos y certificaciones</p>
+                                    </div>   
+                                </div>
+                                <div class="item-faq">
+                                    <div class="question">
+                                        <h3>¿Dónde cancelo mi suscripción?</h3>
+                                        <div class="more"><i>+</i></div>
+                                    </div>  
+                                    <div class="answer">
+                                    <p>Si, aunque se podrán generar comisiones bancarias por motivos de cambios de divisas. </p>
+                                    </div>   
+                                </div>
+                                <div class="item-faq">
+                                    <div class="question">
+                                        <h3>¿Puedo comprar un solo curso?</h3>
+                                        <div class="more"><i>+</i></div>
+                                    </div>  
+                                    <div class="answer">
+                                        <p>Si, la cantidad de cursos es de tu elección</p>
+                                    </div>   
+                                </div>
+   
+                                </div>
+                                
+                                <footer>
+                                    <div class="container_footer">
+                                        <div class="box__footer">
+                                            <div class="logo_footer">
+                                               <a href=""><img src="IMG/EPLAM-blanco-03.svg" alt="">
+                                               </a> 
+                                            </div>
+                                        </div>
+                                        <div class="box__footer">
+                                            <a href="#">ASIR</a>
+                                            <a href="#">PRESENCIAL</a>
+                                            <a href="#">ONLINE</a>
+                                            <a href="#contacto">CONTACTO</a>
+                                
+                                        </div>
+                                        <div class="box__footer">
+                                            <a href="#quienes_somos">¿Quienes Somos?</a>
+                                            <a href="#">¿Qué Hacemos?</a>
+                                            <a href="#">¿Cómo lo Hacemos?</a>
+                                        </div>
+                                        <div class="box__footer">
+                                            <a href="#">Universidad Eplam, Madrid-España.</a>
+                                            <br>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.6147997750836!2d-3.9212714846807057!3d40.37306476621803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419031a94d45e5%3A0x375a8b6ca7a1dc4c!2sUniversidad%20Europea%20de%20Madrid!5e0!3m2!1ses!2ses!4v1653576886185!5m2!1ses!2ses" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                                            <ul class="redes">
+                                          <a href="#" target="_blank"><img src="IMG/ICON_FACEBOOK-03.svg" alt=""></a>
+                                        <a href="#" target="_blank"><img src="IMG/ICON_INSTAGRAM-04.svg" alt=""></a>
+                                        <a href="#" target="_blank"><img src="IMG/ICON_TWITTER-02.svg" alt=""></a>
+                                        </ul>
+                                        </div> 
+                                    </div>
+                                    <div class="box_copyright"><!--Fila de abajo del footer con los links a política de privacidad etc.-->
+                                        <p>Política de Privacidad</p>
+                                        <p>Condiciones de contratación</p>
+                                        <p>Política de cookies</p>
+                                        <p>Aviso legal</p>
+                                        <p>@Copyright Eplam 2022</p>
+                                    </div>
+                                </div>
+                                 </footer>
